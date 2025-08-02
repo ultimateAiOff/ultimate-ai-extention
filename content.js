@@ -14,7 +14,9 @@
     "réponse générée par ia",
     "vous avez dit",
     "assistant response",
-    "your message"
+    "your message",
+    "chatgpt",
+    "poser une question"
   ];
 
   // --- Vérifie si on est sur une page de recherche ---
