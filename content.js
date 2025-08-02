@@ -22,14 +22,14 @@
     const url = window.location.href.toLowerCase();
     const host = window.location.host.toLowerCase();
 
-    const searchHosts = [
+    const sitesPasBloques = [
       'google.com', 'www.google.com',
       'search.brave.com', 'bing.com', 'www.bing.com',
       'duckduckgo.com', 'www.duckduckgo.com',
       'qwant.com', 'search.yahoo.com'
     ];
 
-    return searchHosts.some(h => host.includes(h)) ||
+    return sitesPasBloques.some(h => host.includes(h)) ||
            url.includes('/search?') ||
            url.includes('/?q=') ||
            url.includes('/search?q=') ||
