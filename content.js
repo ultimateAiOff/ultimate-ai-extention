@@ -1,9 +1,7 @@
 (function () {
   // --- Mots clés IA à détecter ---
   const AI_PROMPT_INDICATORS = [
-    "type a message",
     "ask me anything",
-    "envoyez un message",
     "parlez à l'assistant",
     "écrivez un prompt",
     "soumettre à l'ia",
