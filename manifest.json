@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Ultimate AI Extension",
   "version": "1.0",
-  "description": "Extension Chrome pour bloquer les chatbots IA et accéder à Ultimate AI.",
+  "description": "Extention chrome pour bloquer les chatbot ia autres que ultimate ai.",
   "icons": {
     "128": "icon.png"
   },
