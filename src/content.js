@@ -88,3 +88,4 @@ if (isBlockedSite()) {
     window.addEventListener('DOMContentLoaded', showBlocker);
   }
 }
+
