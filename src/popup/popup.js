@@ -5,8 +5,7 @@ document.getElementById('refresh').addEventListener('click', () => {
 });
 
 document.getElementById('ultimate-link').addEventListener('click', () => {
-  // Remplace le lien par le vrai site quand il sera disponible
-  window.open('https://cdn.botpress.cloud/webchat/v3.2/shareable.html?configUrl=https://files.bpcontent.cloud/2025/08/06/20/20250806203029-P96YKUXX.json', '_blank');
+  window.open('https://ultimate-ai.netlify.app', '_blank');
 });
 
 document.getElementById('reportIA').addEventListener('click', () => {
