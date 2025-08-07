@@ -1,11 +1,9 @@
-document.getElementById('refresh').addEventListener('click', () => {
-  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-    chrome.tabs.reload(tabs[0].id);
-  });
-});
-
 document.getElementById('ultimate-link').addEventListener('click', () => {
   window.open('https://ultimate-ai.netlify.app', '_blank');
+});
+
+document.getElementById("site").addEventListener("click", () => {
+  window.open("https://ultimate-ai-site.netlify.app", "_blank");
 });
 
 document.getElementById('reportIA').addEventListener('click', () => {
